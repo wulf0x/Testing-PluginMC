@@ -1,0 +1,25 @@
+name: Testing-PluginMC
+version: 1.0
+main: com.wolf.testingpluginmc.TestingPluginMC  # ¡En minúsculas!
+api-version: '1.21'
+description: Русская экономика и система шахтёра
+author: Wolf
+
+commands:
+  eco:
+    description: Проверить баланс в рублях
+    usage: /eco
+  miner:
+    description: Система работы шахтёром
+    usage: /miner [join|quit|stats|prices]
+  rubli:
+    description: Управление рублями (админ)
+    usage: /rubli give <игрок> <сумма>
+  topminers:
+    description: Топ шахтёров сервера
+    usage: /topminers
+
+permissions:
+  testingpluginmc.admin:
+    description: Административные права плагина
+    default: op

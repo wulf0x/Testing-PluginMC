@@ -1,0 +1,24 @@
+# Конфигурация TestingPluginMC
+settings:
+  # Настройки экономики
+  starting-balance: 100.0
+  currency-name: "Рубль"
+  currency-symbol: "₽"
+
+  # Настройки шахтёра
+  miner:
+    join-cost: 0.0
+    bonus-chance: 5
+    max-bonus-percent: 20
+
+  # Сообщения
+  messages:
+    prefix: "§8[§6Рубль§8] §f"
+    no-permission: "§cУ вас нет прав на эту команду!"
+    player-only: "§cЭта команда только для игроков!"
+
+  # Эффекты
+  effects:
+    block-break-sound: ENTITY_EXPERIENCE_ORB_PICKUP
+    bonus-sound: ENTITY_PLAYER_LEVELUP
+    particles-enabled: true
